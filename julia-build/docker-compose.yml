@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  julia-build:
+    build:
+      context: .
+    volumes:
+      - build_dir:/home/builder/julia
+
+volumes:
+  build_dir:

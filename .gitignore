@@ -4,6 +4,7 @@
 deps/deps.jl
 
 julia-1.2.0/
+julia-src/
 *.zip
 
 # General
