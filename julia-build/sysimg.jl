@@ -60,7 +60,6 @@ let
         print_time(stdlib, tt)
     end
     for dep in Base._require_dependencies
-        continue
         dep[3] == 0.0 && continue
         push!(Base._included_files, dep[1:2])
     end
